@@ -169,9 +169,10 @@ class MainWindow(QMainWindow):
             if item.widget() is not None:
                 item.widget().deleteLater()
 
-
+""" 
 if __name__ == "__main__":
     app = QApplication([])
     window = MainWindow()
     window.show()
     app.exec_()
+ """
